@@ -1,0 +1,13 @@
+name: Disable Workflow Practise
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  disable:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Tahir
+        run: echo "This is practise on Disable Workflow"
